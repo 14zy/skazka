@@ -1,7 +1,7 @@
 .bss-slides{
   position: relative;
-  display: block; 
-  line-height: 0;/*removes the gap if you put a border on the slideshow div*/   
+  display: block;
+  line-height: 0;/*removes the gap if you put a border on the slideshow div*/
 }
 figcaption {
   line-height: 1.5; /* restores line-height to the child element*/
@@ -31,7 +31,7 @@ figcaption {
   opacity: 1;
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
-  position: relative; 
+  position: relative;
 }
 
 .bss-slides figcaption{
@@ -54,7 +54,7 @@ figcaption {
   opacity: 1;
 }
 .bss-slides figcaption a{
-  color: #fff;    
+  color: #fff;
 }
 .bss-next, .bss-prev{
   color: #fff;
@@ -63,8 +63,8 @@ figcaption {
   background: rgba(0,0,0, .6);
   top: 50%;
   z-index: 4;
-  font-size: 2em;
-  margin-top: -1.2em;
+  font-size: 2.6em;
+  margin-top: -1em;
   opacity: .3;
   -webkit-user-select: none;
   -moz-user-select: none;
@@ -77,31 +77,31 @@ figcaption {
 }
 .bss-next{
   right: -1px;
-  padding: 10px 5px 15px 10px;
+  padding: 10px 5px 20px 10px;
   border-top-left-radius: 3px;
   border-bottom-left-radius: 3px;
 }
 .bss-prev{
   left: 0;
-  padding: 10px 10px 15px 5px;
+  padding: 10px 10px 20px 5px;
   border-top-right-radius: 3px;
   border-bottom-right-radius: 3px;
 }
 .bss-fullscreen{
   display: block;
   width: 32px;
-  height: 32px;    
-  background: rgba(0,0,0,.4) url(../img/arrows-alt_ffffff_64.png); 
-  -webkit-background-size: contain; 
+  height: 32px;
+  background: rgba(0,0,0,.4) url(../img/arrows-alt_ffffff_64.png);
+  -webkit-background-size: contain;
   background-size: contain;
   position: absolute;
   top: 5px;
-  left: 5px;   
-  cursor: pointer;    
+  left: 5px;
+  cursor: pointer;
   opacity: .3;
-} 
+}
 .bss-fullscreen:hover{
-  opacity: .8;   
+  opacity: .8;
 }
 :-webkit-full-screen .bss-fullscreen{
     background: rgba(0,0,0,.4) url(../img/compress_ffffff_64.png);
